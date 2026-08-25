@@ -1,0 +1,14 @@
+[
+  {
+    "task": "Write a Python function that parses an AWS S3 bucket name from an S3 URI (e.g., 's3://my-bucket/path/to/file.txt') and returns just the bucket name.",
+    "format": "python"
+  },
+  {
+    "task": "Create a JSON object that represents an AWS IAM policy allowing read-only access to a specific S3 bucket named 'company-data'.",
+    "format": "json"
+  },
+  {
+    "task": "Write a regular expression that matches valid AWS EC2 instance IDs (format: i- followed by 17 hexadecimal characters, e.g., i-0abcd1234efgh5678).",
+    "format": "regex"
+  }
+]
