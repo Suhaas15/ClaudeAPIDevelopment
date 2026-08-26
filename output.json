@@ -1,0 +1,65 @@
+[
+  {
+    "output": "# Marathon Training Meal Plan - High Carbohydrate Loading\n\n## Daily Meal Schedule\n\n**Breakfast (6:00 AM):** Oatmeal with banana and honey\n- Rolled oats (80g)\n- Banana (150g)\n- Honey (30g)\n- Whole milk (250ml)\n- Calories: 550 kcal\n\n**Mid-Morning Snack (9:00 AM):** Energy fuel\n- White bread (80g)\n- Peanut butter (25g)\n- Apple (180g)\n- Calories: 420 kcal\n\n**Lunch (12:30 PM):** Pasta with lean protein\n- Pasta (150g cooked)\n- Grilled chicken breast (150g)\n- Olive oil (15ml)\n- Tomato sauce (100g)\n- Side salad with mixed greens (100g)\n- Calories: 680 kcal\n\n**Pre-Workout Snack (3:00 PM):** Quick carbs\n- Rice cakes (50g)\n- Jam (30g)\n- Orange juice (300ml)\n- Calories: 320 kcal\n\n**Dinner (7:00 PM):** Rice-based meal\n- White rice (200g cooked)\n- Salmon fillet (180g)\n- Steamed broccoli (150g)\n- Canola oil (10ml)\n- Calories: 650 kcal\n\n**Evening Snack (9:30 PM):** Recovery fuel\n- Greek yogurt (200g)\n- Granola (40g)\n- Berries (100g)\n- Calories: 300 kcal\n\n---\n\n## **Total Daily Nutrition:**\n\n**Total Calories: 2,920 kcal**\n\n**Macronutrient Breakdown:**\n- **Carbohydrates: 420g (58%)**\n- **Protein: 130g (18%)**\n- **Fats: 75g (23%)**\n\n---\n\n## Notes:\n- This plan emphasizes high carbohydrate intake (6g carbs per kg body weight) optimal for marathon endurance training\n- Protein supports muscle recovery; fats provide essential nutrients\n- Timing spreads meals/snacks every 2.5-3 hours for consistent energy\n- Stay hydrated with 3-4 liters of water daily, plus electrolyte drinks during training",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "180",
+        "weight": "70",
+        "goal": "Marathon training - high carbohydrate loading for endurance performance",
+        "restrictions": "None"
+      },
+      "solution_criteria": [
+        "Meal plan covers all three meals plus snacks for a full day",
+        "Emphasizes high carbohydrate content (55-65% of calories) appropriate for marathon training",
+        "Total daily caloric intake aligns with high-endurance athlete needs (approximately 2800-3200 calories)",
+        "Format is concise and compact as specified in task description"
+      ],
+      "task_description": "Write a concise, compact 1 day meal plan for a single athlete.",
+      "scenario": "Testing with a high-endurance athlete (marathon runner) requiring high caloric intake and carbohydrate loading for performance"
+    },
+    "score": 9,
+    "reasoning": "The solution comprehensively meets all mandatory requirements with precise caloric totals, detailed macronutrient breakdowns, and complete meal specifications with timing. The carbohydrate loading strategy is appropriately calibrated for marathon training at 58% of calories. The format is concise and well-organized as requested. The caloric total is appropriate for an endurance athlete, though it sits at the higher end of the recommended range. All secondary criteria are satisfied. The solution is practical, well-structured, and directly addresses the task requirements without unnecessary elaboration."
+  },
+  {
+    "output": "# One-Day Muscle-Building Meal Plan for 85kg Athlete\n\n## Meal Schedule\n\n**Breakfast (7:00 AM):**\n- Oatmeal with whole milk, banana, and almond butter\n  - Rolled oats: 80g\n  - Whole milk: 250ml\n  - Banana: 120g\n  - Almond butter: 30g\n\n**Mid-Morning Snack (10:00 AM):**\n- Chicken breast with white rice and broccoli\n  - Grilled chicken breast: 150g\n  - White rice: 100g\n  - Broccoli: 100g\n  - Olive oil: 10ml\n\n**Pre-Workout Snack (12:30 PM):**\n- White bread with honey and Greek yogurt\n  - White bread: 80g\n  - Honey: 30g\n  - Greek yogurt (0% fat): 150g\n\n**Post-Workout Meal (2:30 PM):**\n- Ground beef with sweet potato and spinach\n  - Lean ground beef (90/10): 180g\n  - Sweet potato: 200g\n  - Spinach: 80g\n  - Olive oil: 10ml\n\n**Evening Snack (5:30 PM):**\n- Protein shake with oats\n  - Whey protein powder: 35g\n  - Whole milk: 300ml\n  - Oats: 40g\n\n**Dinner (7:30 PM):**\n- Salmon fillet with jasmine rice and asparagus\n  - Atlantic salmon: 180g\n  - Jasmine rice: 120g\n  - Asparagus: 100g\n  - Olive oil: 8ml\n\n---\n\n## Nutritional Summary\n\n**Total Daily Calories: 3,250 kcal**\n\n| Macronutrient | Amount |\n|---|---|\n| **Protein** | 210g (26% of calories) |\n| **Carbohydrates** | 380g (47% of calories) |\n| **Fats** | 75g (21% of calories) |\n\n---\n\n## Key Features\n\u2713 High protein intake (2.47g per kg body weight) optimizes muscle protein synthesis  \n\u2713 Strategic carbohydrate timing around workout (pre/post-workout meals)  \n\u2713 Caloric surplus supports muscle growth while maintaining strength  \n\u2713 Balanced micronutrient distribution throughout the day  \n\u2713 Budget-friendly with affordable protein sources (chicken, ground beef)",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "178",
+        "weight": "85",
+        "goal": "Build muscle and maximize strength gains through protein-optimized nutrition with strategic meal timing around weightlifting workouts",
+        "restrictions": "None"
+      },
+      "solution_criteria": [
+        "Meal plan covers full 24 hours with 4-5 meals distributed throughout the day",
+        "Protein intake is prioritized (minimum 2.2g per kg bodyweight) with meals timed around workout sessions",
+        "Pre-workout and post-workout meals are specifically identified with appropriate macronutrient composition",
+        "Plan is concise and compact (fits in 1-2 paragraphs or structured table format)"
+      ],
+      "task_description": "Write a concise, compact 1 day meal plan for a single athlete.",
+      "scenario": "Testing with a strength/power athlete (weightlifter) needing protein-focused nutrition and specific meal timing around workouts"
+    },
+    "score": 8,
+    "reasoning": "The solution successfully meets all three mandatory requirements with precise daily calories, complete macronutrient breakdown, and detailed meals with portions and timing. It exceeds the secondary criteria for protein intake (2.47g/kg vs 2.2g minimum) and clearly identifies pre/post-workout meals with appropriate macronutrient composition. However, it violates the 'concise and compact' criterion by using an expanded format rather than the specified 1-2 paragraphs or table format. The lack of explicit workout timing and the overnight nutrition gap are minor issues but don't constitute mandatory requirement violations. The solution is functionally excellent but slightly over-formatted for the stated requirements."
+  },
+  {
+    "output": "# One-Day Vegan Meal Plan for Swimming Athlete\n\n**Athlete Profile:** 172 cm, 68 kg | High-intensity swimming training with muscle recovery\n\n---\n\n## Daily Meal Schedule\n\n**BREAKFAST (6:30 AM) - Pre-training fuel**\n- Oatmeal with berries and nuts: 80g rolled oats, 150g mixed berries (blueberries, raspberries), 30g raw almonds, 250ml unsweetened almond milk\n- Side: 1 medium banana (120g)\n\n**Mid-Morning Snack (9:30 AM) - Post-training recovery**\n- Protein smoothie: 300ml unsweetened almond milk, 40g plant-based protein powder (pea-based), 1 medium banana (120g), 30g raw walnuts, 150g spinach\n\n**LUNCH (1:00 PM) - Main meal**\n- Lentil and quinoa bowl: 100g cooked brown lentils, 80g cooked quinoa, 200g roasted sweet potato, 100g steamed broccoli, 50g raw pumpkin seeds, drizzle of olive oil (10ml)\n- Side salad: 100g mixed greens, 80g cherry tomatoes, 50g cucumber\n\n**Afternoon Snack (4:00 PM) - Energy boost**\n- Energy balls: 50g raw cacao nibs, 60g ground flaxseed, 40g tahini, 30g dates (blended together), shaped into 5 balls\n- Fresh fruit: 1 orange (150g)\n\n**DINNER (7:00 PM) - Recovery meal**\n- Chickpea pasta: 100g whole grain pasta, 150g cooked chickpeas, 200g mixed vegetables (zucchini, bell peppers, carrots), 15ml olive oil, garlic and herbs\n- Side: 100g steamed kale with lemon juice (5ml)\n\n**Evening Snack (9:30 PM - optional)**\n- Chia seed pudding: 40g chia seeds, 200ml unsweetened coconut milk, 10g raw cacao powder, 5g maple syrup\n\n---\n\n## Nutritional Summary\n\n| Macronutrient | Amount |\n|---|---|\n| **Total Calories** | 2,850 kcal |\n| **Carbohydrates** | 385g |\n| **Protein** | 115g |\n| **Fats** | 85g |\n\n---\n\n## Key Benefits for This Athlete\n\n\u2713 **High Antioxidant Content:** Berries, spinach, kale, cacao, and walnuts combat chlorine-induced oxidative stress\n\u2713 **Soy-Free:** All protein sources are from legumes, nuts, seeds, and plant-based powder (pea-based)\n\u2713 **Muscle Recovery:** 115g protein supports muscle repair after high-intensity swimming\n\u2713 **Budget-Friendly:** Uses affordable whole foods like lentils, oats, chickpeas, and seasonal produce\n\u2713 **Proper Timing:** Meals strategically placed around training for optimal energy and recovery",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "172 cm",
+        "weight": "68 kg",
+        "goal": "High-intensity swimming training with muscle recovery",
+        "restrictions": "Vegan diet, no soy products due to allergies, chlorine-sensitive skin requiring antioxidant-rich foods"
+      },
+      "solution_criteria": [
+        "Meal plan covers all three meals and is formatted for a single day",
+        "All meals are vegan and soy-free while meeting protein needs for athletic recovery",
+        "Includes antioxidant-rich foods (berries, leafy greens, nuts, seeds) to support chlorine sensitivity management",
+        "Meals are concise and practical for an athlete's schedule"
+      ],
+      "task_description": "Write a concise, compact 1 day meal plan for a single athlete.",
+      "scenario": "Testing with a sport-specific constraint athlete (swimmer with chlorine sensitivity or vegan gymnast) requiring dietary restrictions while maintaining athletic performance"
+    },
+    "score": 9,
+    "reasoning": "The solution fully satisfies all three mandatory requirements with precise portions, timing, and nutritional data clearly presented. It successfully addresses all secondary criteria: maintains vegan/soy-free compliance, provides substantial protein for recovery, incorporates multiple antioxidant-rich foods specifically targeting chlorine sensitivity, and presents meals in a practical, athlete-friendly schedule. The meal plan is logically structured with appropriate pre/post-training nutrition timing. Minor weaknesses exist in caloric justification and hydration guidance, but these do not violate stated criteria. The solution meets the exact scope of the task without unnecessary additions."
+  }
+]

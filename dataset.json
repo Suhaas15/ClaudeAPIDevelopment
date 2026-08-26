@@ -1,14 +1,50 @@
 [
   {
-    "task": "Write a Python function that parses an AWS S3 bucket name from an S3 URI (e.g., 's3://my-bucket/path/to/file.txt') and returns just the bucket name.",
-    "format": "python"
+    "prompt_inputs": {
+      "height": "180",
+      "weight": "70",
+      "goal": "Marathon training - high carbohydrate loading for endurance performance",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan covers all three meals plus snacks for a full day",
+      "Emphasizes high carbohydrate content (55-65% of calories) appropriate for marathon training",
+      "Total daily caloric intake aligns with high-endurance athlete needs (approximately 2800-3200 calories)",
+      "Format is concise and compact as specified in task description"
+    ],
+    "task_description": "Write a concise, compact 1 day meal plan for a single athlete.",
+    "scenario": "Testing with a high-endurance athlete (marathon runner) requiring high caloric intake and carbohydrate loading for performance"
   },
   {
-    "task": "Create a JSON object that represents an AWS IAM policy allowing read-only access to a specific S3 bucket named 'company-data'.",
-    "format": "json"
+    "prompt_inputs": {
+      "height": "172 cm",
+      "weight": "68 kg",
+      "goal": "High-intensity swimming training with muscle recovery",
+      "restrictions": "Vegan diet, no soy products due to allergies, chlorine-sensitive skin requiring antioxidant-rich foods"
+    },
+    "solution_criteria": [
+      "Meal plan covers all three meals and is formatted for a single day",
+      "All meals are vegan and soy-free while meeting protein needs for athletic recovery",
+      "Includes antioxidant-rich foods (berries, leafy greens, nuts, seeds) to support chlorine sensitivity management",
+      "Meals are concise and practical for an athlete's schedule"
+    ],
+    "task_description": "Write a concise, compact 1 day meal plan for a single athlete.",
+    "scenario": "Testing with a sport-specific constraint athlete (swimmer with chlorine sensitivity or vegan gymnast) requiring dietary restrictions while maintaining athletic performance"
   },
   {
-    "task": "Write a regular expression that matches valid AWS EC2 instance IDs (format: i- followed by 17 hexadecimal characters, e.g., i-0abcd1234efgh5678).",
-    "format": "regex"
+    "prompt_inputs": {
+      "height": "178",
+      "weight": "85",
+      "goal": "Build muscle and maximize strength gains through protein-optimized nutrition with strategic meal timing around weightlifting workouts",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan covers full 24 hours with 4-5 meals distributed throughout the day",
+      "Protein intake is prioritized (minimum 2.2g per kg bodyweight) with meals timed around workout sessions",
+      "Pre-workout and post-workout meals are specifically identified with appropriate macronutrient composition",
+      "Plan is concise and compact (fits in 1-2 paragraphs or structured table format)"
+    ],
+    "task_description": "Write a concise, compact 1 day meal plan for a single athlete.",
+    "scenario": "Testing with a strength/power athlete (weightlifter) needing protein-focused nutrition and specific meal timing around workouts"
   }
 ]
