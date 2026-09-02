@@ -16,6 +16,10 @@ This repository contains my Jupyter notebooks and hands-on exercises from the **
 - Generating diverse test scenarios and solution criteria
 - Running model evaluations concurrently
 - Producing reusable JSON and HTML evaluation reports
+- Defining tools with JSON schemas and handling `tool_use` responses
+- Running multi-step tool loops with `tool_result` messages
+- Implementing file-viewing and editing operations with backups
+- Using Claude's web-search tool with domain restrictions
 
 ## Notebooks
 
@@ -28,6 +32,9 @@ This repository contains my Jupyter notebooks and hands-on exercises from the **
 | [005_controllingoutput.ipynb](005_controllingoutput.ipynb) | Prefilling responses and using stop sequences |
 | [006_prompteval.ipynb](006_prompteval.ipynb) | Building an introductory evaluation pipeline with model and syntax grading |
 | [007_prompting.ipynb](007_prompting.ipynb) | Building a reusable, concurrent prompt evaluator with report generation |
+| [008_tools.ipynb](008_tools.ipynb) | Defining custom tools and running a multi-step tool-use conversation |
+| [009_text_editor_tool.ipynb](009_text_editor_tool.ipynb) | Implementing a text-editor tool with path validation, backups, and undo support |
+| [010_web_search.ipynb](010_web_search.ipynb) | Using server-side web search with usage and domain controls |
 
 ## Evaluation artifacts
 
@@ -66,7 +73,7 @@ jupyter notebook
 
 ## Model compatibility
 
-The introductory notebooks use Claude Sonnet 4.6. The output-control notebook uses Claude Sonnet 4.5, while the evaluation notebooks use Claude Haiku 4.5. These 4.5 models support the assistant-prefilling technique demonstrated in the course, while Claude 4.6 and newer models do not. Available model IDs may change, so they can be checked with `client.models.list()`.
+The introductory notebooks use Claude Sonnet 4.6. Later exercises use Claude Sonnet 4.5 or Claude Haiku 4.5 depending on the feature being demonstrated. The 4.5 models support the assistant-prefilling technique used in several notebooks, while Claude 4.6 and newer models do not. Available model IDs may change, so they can be checked with `client.models.list()`.
 
 ## Status
 
