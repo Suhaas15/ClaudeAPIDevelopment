@@ -21,6 +21,10 @@ This repository contains my Jupyter notebooks and hands-on exercises from the **
 - Implementing file-viewing and editing operations with backups
 - Using Claude's web-search tool with domain restrictions
 - Splitting long documents into overlapping character, sentence, and section chunks
+- Creating semantic vector indexes with Voyage AI embeddings
+- Implementing BM25 keyword search and hybrid retrieval with reciprocal rank fusion
+- Exploring extended thinking, vision inputs, and prompt caching
+- Uploading files for sandboxed code execution and downloading generated artifacts
 
 ## Notebooks
 
@@ -37,6 +41,13 @@ This repository contains my Jupyter notebooks and hands-on exercises from the **
 | [009_text_editor_tool.ipynb](009_text_editor_tool.ipynb) | Implementing a text-editor tool with path validation, backups, and undo support |
 | [010_web_search.ipynb](010_web_search.ipynb) | Using server-side web search with usage and domain controls |
 | [011_chunking.ipynb](011_chunking.ipynb) | Chunking long documents by character count, sentence boundaries, and Markdown sections |
+| [012_vectordb.ipynb](012_vectordb.ipynb) | Building an in-memory semantic vector index with Voyage AI embeddings |
+| [013_bm25.ipynb](013_bm25.ipynb) | Implementing BM25 keyword-based document retrieval |
+| [014_hybrid.ipynb](014_hybrid.ipynb) | Combining semantic and BM25 search with reciprocal rank fusion |
+| [015_thinking.ipynb](015_thinking.ipynb) | Enabling extended thinking and handling redacted thinking blocks |
+| [016_images.ipynb](016_images.ipynb) | Drafting a vision prompt for satellite-image fire-risk assessment |
+| [017_caching.ipynb](017_caching.ipynb) | Scaffolding prompt caching for large prompts and tool definitions |
+| [018_code_execution.ipynb](018_code_execution.ipynb) | Uploading files, running sandboxed code analysis, and downloading results |
 
 ## Evaluation artifacts
 
@@ -44,9 +55,9 @@ This repository contains my Jupyter notebooks and hands-on exercises from the **
 - [output.json](output.json) stores the generated responses, scores, and grading reasoning.
 - [output.html](output.html) presents the evaluation results as a readable report with summary statistics.
 
-## Chunking sample
+## Chunking and retrieval sample
 
-[report.md](report.md) is a sample long-form report used to demonstrate document chunking with configurable sizes and overlaps.
+[report.md](report.md) is a sample long-form report used to demonstrate document chunking and retrieval.
 
 ## Setup
 
@@ -60,13 +71,14 @@ source .venv/bin/activate
 Install the dependencies:
 
 ```bash
-python -m pip install anthropic python-dotenv jupyter
+python -m pip install anthropic python-dotenv jupyter voyageai
 ```
 
 Create a `.env` file in the project directory:
 
 ```text
 ANTHROPIC_API_KEY=your_api_key_here
+VOYAGE_API_KEY=your_voyage_api_key_here
 ```
 
 Then start Jupyter:
@@ -76,6 +88,8 @@ jupyter notebook
 ```
 
 > Keep `.env` out of version control so your API key is never committed.
+
+The code-execution notebook expects a local `streaming.csv` input file. Add a compatible CSV before running that exercise. The image notebook currently contains the analysis prompt scaffold; image loading and submission are left as the next implementation step.
 
 ## Model compatibility
 
