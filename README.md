@@ -20,6 +20,7 @@ This repository contains my Jupyter notebooks and hands-on exercises from the **
 - Running multi-step tool loops with `tool_result` messages
 - Implementing file-viewing and editing operations with backups
 - Using Claude's web-search tool with domain restrictions
+- Splitting long documents into overlapping character, sentence, and section chunks
 
 ## Notebooks
 
@@ -35,12 +36,17 @@ This repository contains my Jupyter notebooks and hands-on exercises from the **
 | [008_tools.ipynb](008_tools.ipynb) | Defining custom tools and running a multi-step tool-use conversation |
 | [009_text_editor_tool.ipynb](009_text_editor_tool.ipynb) | Implementing a text-editor tool with path validation, backups, and undo support |
 | [010_web_search.ipynb](010_web_search.ipynb) | Using server-side web search with usage and domain controls |
+| [011_chunking.ipynb](011_chunking.ipynb) | Chunking long documents by character count, sentence boundaries, and Markdown sections |
 
 ## Evaluation artifacts
 
 - [dataset.json](dataset.json) contains generated test scenarios, prompt inputs, and solution criteria for evaluating an athlete meal-planning prompt.
 - [output.json](output.json) stores the generated responses, scores, and grading reasoning.
 - [output.html](output.html) presents the evaluation results as a readable report with summary statistics.
+
+## Chunking sample
+
+[report.md](report.md) is a sample long-form report used to demonstrate document chunking with configurable sizes and overlaps.
 
 ## Setup
 
